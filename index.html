@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!--Stylesheet CSS-->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://kit.fontawesome.com/61542d5a28.js" crossorigin="anonymous"></script>
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <!--Cabecalho-->
+    <div class="container-fluid">
+      <div class="row" id="cabecalho">
+        <div class="col-lg-6" id="logo-page">
+          <img src="imagens/logo.png" alt="logotype" id="logo">
+        </div>
+        <div class="col-lg-6" id="info">
+          <div class="row">
+            <div class="col-lg-9">
+              <div class="row" id="email-number">
+                <div class="col" id="email">
+                  <span> 
+                    <i class="fas fa-envelope" id="icon-email"></i>
+                  </span>
+                  <span>
+                    <p class="texto-mail">info@docmed.com</p>
+                  </span>
+                </div>
+                <div class="col" id="number">
+                  <span>
+                    <i class="fas fa-phone-alt" id="icon-number"></i>
+                  </span>
+                  <span>
+                    <p class="texto-number">1601-609 6780</p>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3" id="get-free-quote">
+              <button type="button" id="free-quote">Get Free Quote</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Nav bar-->
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg" id="navbar">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-button">
+          <span class="navbar-toggler-icon"> <i class="fas fa-bars"></i> </span>
+        </button>
+          <div class="collapse navbar-collapse" id="navbar-button">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a class="nav-link content" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link content" href="#">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link content" href="#">About</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle content" data-toggle="dropdown" href="#">Pages</a>
+                <div class="dropdown-menu" id="menu1">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle content" data-toggle="dropdown" href="#">Blog</a>
+                <div class="dropdown-menu" id="menu2">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <a class="dropdown-item" href="#">Something else</a>
+                </div>
+              </li>
+              <li class="nav-items">
+                  <a class="nav-link content" href="#">Contact</a>
+              </li>
+            </ul>
+            <form class="form-inline">
+              <div class="search-box">
+                <input type="text" class="search-text" id="search" name="texto" placeholder="Search">
+                <div id="search-btn1">
+                  <a href="#">
+                    <i class="fas fa-search" id="search-btn"></i>
+                  </a>
+                </div>
+              </div>
+            </form>
+          </div>
+      </nav>
+    </div>
+    <!--Banner-->
+    <div class="container-fluid" id="banner">
+      <div class="row" id="texto-banner">
+        <div class="col" id="personal">
+          <h4>For personal & Business</h4>
+        </div>
+        <div class="col" id="global">
+          <h1>Global Logistic Service<br>For Business</h1>
+        </div>
+        <div class="col" id="our-services">
+          <button type="button" id="button-service">Our Services</button>
+        </div>
+      </div>
+    </div>
+    <!--Topics-->
+    <div class="container-fluid" id="Topics">
+      <div class="row">
+        <div class="col-lg-4">
+          <span><i class="fal fa-globe-europe"></i></span>
+          <h5 id="transportation">Transportation</h5>
+          <p class="topics-text">Esteem spirit temper too say adieus<br>who direct esteem. It look estee <br>luckily or picture
+            or placing drawing.</p>
+        </div>
+        <div class="col-lg-4">
+          <img src="imagens/lou.png">
+          <h5 id="Live-Monitoring">Live Monitoring</h5>
+          <p class="topics-text">Esteem spirit temper too say adieus<br> who direct esteem. It look estee <br>luckily or picture placing
+            drawing.</p>
+        </div>
+        <div class="col-lg-4">
+          <img src="imagens/lou.png">
+          <h5 id="Worldwide">Worldwide Service</h5>
+          <p class="topics-text">Esteem spirit temper too say adieus<br> who direct esteem. It look estee <br>luckily or picture placing
+            drawing.</p>
+        </div>
+      </div>
+    </div>
+    <!--Servicos Prestados-->
+    <div class="container-fluid" id="prestados">
+      <h1 id="service">Services We Offer</h1>
+      <div id="demo" class="carousel slide" data-ride="carousel">
+        <!--indicators-->
+        <ul class="carousel-indicators">
+          <li data-target="#demo" data-slide-to="0"class="active"></li>
+          <li data-target="#demo" data-slide-to="1"></li>
+          <li data-target="#demo" data-slide-to="2"></li>
+        </ul>
+        <!--The slideshows-->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="imagens/1.png" alt="navio" class="image">
+          </div>
+          <div class="carousel-item">
+            <img src="imagens/2.png" alt="caminhao" class="image">
+          </div>
+          <div class="carousel-item">
+            <img src="imagens/3.png" alt="aviao" class="image">
+          </div>
+        </div>
+        <!--left and rights button-->
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+          <span class="carousel-control-prev-icon prev-next"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+          <span class="carousel-control-next-icon prev-next"></span>
+        </a>
+      </div>
+    </div>
+    <!--Secure and safe-->
+    <div class="containe-fluid" id="secure">
+      <div class="row" id="safe">
+        <div class="col-lg-7">
+          <h1 id="secure-safe">100% secure and safe</h1>
+          <p id="texto-secure">Esteem spirit temper too say adieus who direct esteem. It look estee luckily or picture placing
+            drawing
+          </p>
+        </div>
+        <div class="col-lg-5" id="button-sec">
+          <button type="button" id="button-secure" style="circle">+10 672 457 356</button>
+        </div>
+      </div>
+    </div>
+    <!--Why choose us-->
+    <div class="container-fluid" id="why-choose-us">
+      <div class="row" id="why-choose-us-1">
+        <div class="col-md-6" id="image-choose">
+          <img class="img-fluid" src="imagens/about.png" alt="about" id="image-about">
+        </div>
+        <div class="col-md-6" id="texto-choose">
+          <h1 id="texto-choose-title">why Choose Us ?</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do
+            eiusmod tempor incididun
+          </p>
+          <div class="checklist">
+            <p><i class="far fa-check-circle"></i>Apartments frequently or motionless.</p>
+            <p><i class="far fa-check-circle"></i>Duis aute irure dolor in reprehenderit in voluptate.</p>
+            <p></p><i class="far fa-check-circle"></i>Voluptatem quia voluptas sit aspernatur.</p>
+          </div>
+          <button type="button" id="button-choose-us">About Us</button>
+        </div>
+      </div>
+      <div class="row" id="why-choose-us-2">
+        <div class="col">
+          <h2 class="choose-number">42 +</h2>
+          <p class="choose-texto">Countries Covered</p>
+        </div>
+        <div class="col">
+          <h2 class="choose-number">97 +</h2>
+          <p class="choose-texto">Business Sucess</p>
+        </div>
+        <div class="col">
+          <h2 class="choose-number">2342</h2>
+          <p class="choose-texto">Happy Client</p>
+        </div>
+        <div class="col">
+          <h2 class="choose-number">3245</h2>
+          <p class="choose-texto">Business Done</p>
+        </div>
+      </div>
+    </div>
+    <!--Testimonials-->
+    <div class="container-fluid" id="testimonials">
+      <div class="row">
+        <div class="col-lg-6" id="parte-carousel">
+          <div id="#demo2" class="carousel slide" data-ride="carousel">
+            <ul class="carousel-indicators">
+              <li data-target="demo2" data-slide-to="0" class="active"></li>
+              <li data-target="demo2" data-slide-to="1"></li>
+              <li data-target="demo2" data-slide-to="2"></li>
+            </ul>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div id="img1-carousel">
+                  <img src="imagens/favicon.png" alt="image-favion" id="image1-carousel">
+                </div>
+                <div class="texto-carousel2">
+                  <p>Donec imperdiet congue orci consequat mattis.Donec rutrum
+                    porttitor sollicitudin. Pellentesque id dolor tempor sapien feugiat
+                    ultrices.
+                  </p>
+                </div>
+                <div class="image-texto-carousel">
+                  <img src="imagens/testmonial2.png" alt="woman" id="image2-carousel">
+                  <h4 class="texto-carousel3">Robert Thomson</h4>
+                  <p id="business-owner">Business owner</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div id="img1-carousel">
+                  <img src="imagens/favicon.png" alt="image-favion" id="image1-carousel">
+                </div>
+                <div class="texto-carousel2">
+                  <p>Donec imperdiet congue orci consequat mattis.Donec rutrum
+                    porttitor sollicitudin. Pellentesque id dolor tempor sapien feugiat
+                    ultrices.
+                  </p>
+                </div>
+                <div class="image-texto-carousel">
+                  <img src="imagens/testmonial2.png" alt="woman" id="image2-carousel">
+                  <h4 class="texto-carousel3">Robert Thomson</h4>
+                  <p id="business-owner">Business owner</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div id="img1-carousel">
+                  <img src="imagens/favicon.png" alt="image-favion" id="image1-carousel">
+                </div>
+                <div class="texto-carousel2">
+                  <p>Donec imperdiet congue orci consequat mattis.Donec rutrum
+                    porttitor sollicitudin. Pellentesque id dolor tempor sapien feugiat
+                    ultrices.
+                  </p>
+                </div>
+                <div class="image-texto-carousel">
+                  <img src="imagens/testmonial2.png" alt="woman" id="image2-carousel">
+                  <h4 class="texto-carousel3">Robert Thomson</h4>
+                  <p id="business-owner">Business owner</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Get free Estimate-->
+    <div class="container-fluid" id="estimate">
+      <div class="row" id="estimate2">
+        <div class="col-lg-4" id="estimate-texto">
+          <div id="title-estimate">
+            <h2>Get Free Estimate</h2>
+          </div>
+          <div id="texto-estimate">
+            <p>Esteem spirit temper too say adieus who direct esteem. It look estee luckily or picture placing.</p>
+          </div>
+          <div id="estimate-but">
+            <button type="button" id="button-estimate"><b>+10 672 457 356</b></button>
+          </div>
+        </div>
+        <div class="col-lg-8">
+          <form id="estimate-form">
+            <div class="row form-linha">
+              <div class="col">
+                <input type="text" class="form-control" placeholder="Your Name" id="name" name="texto">
+              </div>
+              <div class="col">
+                <input type="email" class="form-control" placeholder="Email" id="email" name="email">
+              </div>
+            </div>
+            <div class="row form-linha">
+              <div class="col">
+                <select class="form-control" id="product type">
+                  <option selected> Product type</option>
+                  <option>moto</option>
+                  <option>Bike</option>
+                </select>
+              </div>
+              <div class="col">
+                <select class="form-control" id="product size">
+                  <option selected> Product size</option>
+                  <option>3</option>
+                  <option>4</option>
+                </select>
+              </div>
+            </div>
+            <div class="row form-linha">
+              <div class="col">
+                <select class="form-control" id="city of departure">
+                  <option selected>City of departure</option>
+                  <option>Florida</option>
+                  <option>Atlanta</option>
+                </select>
+              </div>
+              <div class="col">
+                <select class="form-control" id="delivery city">
+                  <option selected>Delivery city</option>
+                  <option>Brooklyn</option>
+                  <option>New york</option>
+                </select>
+              </div>
+            </div>
+            <textarea class="form-control form-linha" id="control-area" rows="3" placeholder="Message"></textarea>
+            <button type="button" class="btn-lg btn-block" id="send-form">Send Estimate</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!--Location-->
+    <div class="container-fluid" id="location">
+      <div class="row" id="location2">
+        <div class="col-lg-6">
+          <div id="image-location">
+            <img src="imagens/logo.png" alt="logo" id="logo-location">
+          </div>
+          <div id="icons">
+            <i class="fa-2x fab fa-facebook"></i>
+            <i class="fa-2x fab fa-google-plus"></i>
+            <i class="fa-2x fab fa-twitter-square"></i>
+            <i class="fa-2x fab fa-youtube"></i>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="row">
+            <div class="col">
+              <div class="location3">
+                <h5>Location</h5>
+              </div>
+              <div class="loca-text">
+                <p>600/D, Kings road, Green lane</p>
+                <p>NewYork-2563</p>
+              </div>
+            </div>
+            <div class="col">
+              <div class="location3">
+                <h5>Location</h5>
+              </div>
+              <div class="loca-text">
+                <p>+10 267 3563 4562</p>
+                <p>support@logistico.com</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Footer-->
+    <footer class="page-footer">
+      <div class="container-fluid" id="footer">
+        <div class="row">
+          <div class="col-lg-8">
+            <div class="row">
+              <div class="col-lg-5">
+                <h5 class="title-footer">Services</h5>
+                <p><a class="texto-footer" href="#">Air transportation</a></p>
+                <p><a class="texto-footer" href="#">Ocean freight</a></p>
+                <p><a class="texto-footer" href="#">Ocean Cargo</a></p>
+                <p><a class="texto-footer" href="#">Logistics</a></p>
+                <p><a class="texto-footer" href="#">Warehouse Moving</a></p>
+              </div>
+              <div class="col-lg-3">
+                <h5 class="title-footer">Company</h5>
+                <p><a class="texto-footer" href="#">About</a></p>
+                <p><a class="texto-footer" href="#">News</a></p>
+                <p><a class="texto-footer" href="#">Testimonials</a></p>
+                <p><a class="texto-footer" href="#">Why Us?</a></p>
+              </div>
+              <div class="col-lg-4">
+                <h5 class="title-footer">Industries</h5>
+                <p><a class="texto-footer" href="#">Chemicals</a></p>
+                <p><a class="texto-footer" href="#">Automotive</a></p>
+                <p><a class="texto-footer" href="#">Consumer Goods</a></p>
+                <p><a class="texto-footer" href="#">Life Science</a></p>
+                <p><a class="texto-footer" href="#">Foreign Trade</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <h5 class="title-footer">Subscribe</h5>
+            <form class="form-inline">
+              <div id="footer-form-bt">
+                <input type="text" placeholder="Enter your mail" name="mail" id="form-footer">
+                <div id="footer-div">
+                  <a href="#"><button type="button" id="button-footer"><b>Subscribe</b></button></a>
+                </div>
+              </div>
+            </form>
+            <p class="texto-footer">Esteem spirit temper too say adieus who direct<br>esteem esteems luckily.</p>
+          </div>
+        </div>
+      </div>
+      <div class="container"><hr></div>
+      <div class="footer-copyright title-footer">
+        <p id="copyright">Copyright <i class="far fa-copyright"></i>2020 All rights reserved | This template is made with <i class="far fa-heart"></i> by <a href="#" id="colorlib">Colorlib</a></p>
+      </div>
+    </footer>
+
+
+    <iframe width="773" height="425" src="https://www.youtube.com/embed/Wro2z8hPYMY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>
